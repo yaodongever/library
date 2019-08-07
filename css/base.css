@@ -1,0 +1,15 @@
+/*通用css样式*/
+*{
+    padding:0px;
+    margin:0px;
+    font-family:"宋体";
+    font-size:14px;
+    text-decoration:none;
+    list-style-type:none;
+}
+.header,.nav,.footer{
+    width:100%;
+}
+img{
+    border:none;
+}

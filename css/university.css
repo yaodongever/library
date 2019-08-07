@@ -1,0 +1,70 @@
+/*头部*/
+.header{
+    width:100%;height:90px;background-color:#536e8c;
+}
+.header .second{
+    width:1000px;height:90px;background-color:#125503;margin:0px auto;
+}
+#en{
+    float:right;color:#ffffff;background-color:#7ed21c;width:70px;text-align:center;
+}
+.header .second ul{
+    float:right;margin-top:-20px;
+}
+.header .second ul li{
+    display:inline;padding:0px 1px;
+}
+.header .second ul li ol{
+    display:none;
+}
+.header .second ul li a{
+    color:#ffffff;font-size:15px;font-weight:400;padding:3px 1px;width:70px;height:15px;
+}
+.header .second ul li a:hover{
+    background-color:#000000;
+}
+.header .second ul li .font{
+    background-color:#2c731c;
+}
+.header .second ul li .font1{
+    background-color:#3a9e1f;
+}
+/*中部*/
+.main .nav{
+    width:990px;height:473px;
+}
+.main .nav img{
+    width:990px;height:473px;width:1366px;
+}
+.main ul{
+    height:100px;margin-top:-110px;padding-bottom:20px;padding-bottom:5px;
+}
+.main ul li{
+    display:inline;position:relative;padding-bottom:2px;
+}
+.main ul li a{
+    padding-left:8px;
+}
+.main ul li a img:hover{
+    border:1px solid #ffffff;
+}
+#xw{
+    padding-left:200px;
+}
+.main ul li ol{
+    margin-left:590px;margin-top:-150px;
+}
+.main ul li ol{
+    display:none;position:absolute;
+}
+.main ul li a:hover~ol{
+    display:block;
+}
+
+/*底部*/
+.footer p{
+    width:100%;height:84px;background-color:#0b3203;text-align:center;
+}
+.footer p img{
+    height:53p;padding-top:15px;
+}

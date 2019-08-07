@@ -1,0 +1,137 @@
+/*body样式*/
+body{
+    background-color: rgba(241, 238, 229, 0.76);
+}
+/*头部样式*/
+.header{
+    width:100%;background-color: rgba(241, 238, 229, 0.76);
+}
+.header div{
+    margin-left:200px;margin-top:70px;
+}
+.header ul{
+    float:right;margin-top:-160px;margin-right:200px;
+}
+.header ul li{
+    display:inline;
+}
+/*中部*/
+.center,.center .right{
+    overflow:hidden;
+}
+.center .left div{
+    float:left;width:45px;height:220px;background-color: #57835c;padding-top:25px;;margin-top:130px;border:10px solid #ffffff;
+}
+.center .left div a{
+    color:#ffffff;font-size:40px;font-weight:900;display:block;
+}
+.center .right{
+    border:20px solid #ffffff;width:850px;background-color:#ffffff;height:470px;
+    display:inline;margin:50px auto;float:left;margin-left:200px;
+}
+.center .right .xyzq,.center .right .other{
+    float:left;
+}
+.center .right .xyzq{
+    margin-left:10px;
+}
+.center .right .xyzq ul{
+    width:322px;background-color:#212121;height:20px;margin-top:-3px;
+}
+.center .right .xyzq ul li{
+    list-style-image:url("../img/st_xyzq.png");margin-left:30px;
+}
+.center .right .xyzq ul li a{
+    color:#ffffff;font-weight:800;font-size:18px;
+}
+.center .right .xyzq ul li a:hover{
+    color:orange;
+}
+.center .right .other{
+    width:500px;height:310px;margin-left:14px;padding:2px;line-height:30px;
+}
+.center .right .xxgx,#bag{
+    margin-left:10px;
+}
+.center .right .xxgx{
+    display:inline;margin-top:15px;
+}
+/*底部*/
+.footer ul{
+    width:100%;height:80px;background-color: #45945a;
+}
+.footer ul li{
+    display:inline;padding-left:130px;
+}
+.footer ul li a img{
+    color:orange;
+}
+
+/*paper*/
+.top .ip{
+    width:100%;height:30px;background-color:#404040;
+}
+.top .ip p,a{
+    color:#d5d5d5;
+}
+.top .ip p{
+    padding-top:8px;margin-left:200px;
+}
+.top .ip ul{
+    float:right;margin-top:-18px;margin-right:200px;
+}
+.top .ip ul li{
+    display:inline;
+}
+.top .system{
+    width:100%;height:140px;background-color:#edf4ed;
+}
+.top .system .pic{
+    padding-top:40px;margin-left:200px;
+}
+.top .system .tgtj{
+    float:right;margin-right:200px;margin-top:-85px;
+}
+#tuijian,#daohang{
+    border-radius:0px 0px 10px 10px;color:#ffffff;
+}
+#tuijian{
+    background-color:#32a181;padding:20px 30px;padding-bottom:40px;font-size:20px;font-weight:900;
+}
+#daohang{
+    background-color:#73bea7;padding:24px 25px;
+    font-size:15px;font-weight:700;margin-top:20px;
+}
+/*中间登录样式*/
+.main{
+    overflow:hiiden;
+}
+.main .bg{
+    margin-left:200px;
+}
+.main form{
+    height:220px;width:350px;float:right;
+    border:1px solid rgba(213, 213, 213, 0.91);
+    margin-top:-235px;margin-right:250px;
+}
+.main form h4{
+    margin-left:50px;color:#32a181;font-size:30px;font-weight:900;padding-top:15px;
+}
+#user,#password{
+    margin-left:50px;margin-top:20px;height:30px;width:250px;background-color:#d5d5d5
+}
+#submit{
+    margin-left:50px;margin-top:20px;width:250px;height:35px;background-color:#34a282;
+    color:#ffffff;font-size:20px;font-weight:900;
+}
+#user,#password,#submit{
+    border:none;border-radius:3px;
+}
+.bottom{
+    width:100%;height:90px;background-color:#404040;margin-top:100px;
+}
+.bottom p{
+    color:#a4b1a8;margin-left:200px;padding-top:50px;
+}
+
+

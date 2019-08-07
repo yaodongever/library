@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>202.112.175.5/calis/idp.php?</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/farm.css">
+    <script type="text/javascript" src="js/apply.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <span>汇文CALIS统一认证登录</span>
+    <!--登录框-->
+    <form>
+        <p>用户名：<input type="text"></p>
+        <p>密 码：<input type="text"></p>
+        <p>
+        <input type="radio" name="number" pattern="\n{1,5}" required id="myinput">证件号
+        <input type="radio" name="number">条码号
+        <input type="radio" name="number">Email
+        </p>
+        <p>
+            <input type="submit" value="登录">
+        </p>
+    </form>
+    <div>
+        <!--提示信息-->
+        <h2><img src="img/tip.png"> 提示</h2>
+        <ul>
+            <li>读者用户名为读者的证件号,条码号或者您的Email,具体可以自行选择</li>
+            <li>读者信息查询的初始密码有两种可能情况：
+                <p>1.读者证件号（一般即为您的学号）</p>
+                <p>2.借书证上的条形码号</p>
+            </li>
+            <li>密码在进入系统后可由读者重新设置</li>
+            <li>Email由您自行设定，登陆后可以修改</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

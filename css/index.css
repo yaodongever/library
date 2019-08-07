@@ -1,0 +1,170 @@
+/*首页*/
+/*header*/
+.header .login{
+    width:100%;height:40px;background-color: rgba(50, 131, 62, 0.95);overflow:hidden;margin:auto 0px;
+}
+#keywords{
+    float:left;margin-left:200px;height:25px;margin-top:6px;
+}
+#dlsy{
+    float:right;
+}
+.header .login ul #login,.dlsy{
+    float:right;margin-right:280px;display:block;
+}
+.login ul form #siteSearch{
+    margin-left:10px;margin-top:9px;
+}
+.login ul form .icon{
+    margin-top:9px;
+}
+
+/*main*/
+.main{
+    overflow:hidden;margin:0px auto;
+}
+.main .main-top,.main-center,.main-bottom{
+    width:990px;margin:15px auto;
+}
+.nav{
+    height:150px;background-color: #eaeaeb;width:100%;
+}
+.nav .logo{
+    margin-left:200px;margin-top:25px;
+}
+.nav ul li a{
+    font-size:25px;color:#212121;font-weight:900;margin-left:25px;margin-top:90px;display:block;
+}
+#logo{
+    height:100px;line-height:150px;
+}
+.nav .logo,.nav ul{
+    float:left;
+}
+.nav ul li{
+    display:inline-block;
+}
+
+/*main-top*/
+.main-top{
+    height:338px;background-image:url("../img/main-top_bg.jpg");
+}
+.main-top .search{
+    height:258px;width:620px;background-image:url("../img/ul_bg.jpg");float:right;margin:40px 40px 40px;
+}
+.main-top,.main-top .search{
+    overflow:hidden;
+}
+.main-top .search li{
+    float:left;display:inline-block;margin-top:10px;padding:5px;
+}
+.main-top .search li a{
+    color:#212121;font-size:25px;font-weight:900;margin-left:36px;
+}
+.main-top .search li a:hover{
+    background-color: #a4b1a8;color:green;
+}
+.main-top div{
+    margin:22px 22px 0px;
+}
+.main-top .link li a{
+    margin-left:7px;
+}
+
+/*main-center*/
+.main .main-center{
+    overflow:hidden;
+}
+.main .main-center ul{
+    background-color:green;height:40px;width:700px;position:relative;
+}
+.main .main-center ul li{
+    float:left;margin-left:40px;
+}
+.main .main-center ul li a{
+    color:#000000;font-size:20px;font-weight:900;display:block;margin-top:10px;
+}
+.main .main-center ul li:hover{
+    color:orange;background-color:#ffffff;height:40px;
+}
+.main-center ul li div{
+    margin:10px 10px 0px;float:left;position:absolute;overflow:hidden;display:none;
+}
+.main-center ul li div .float,.main-center ul li div .a_float{
+    float:right;
+}
+.main-center ul li div img{
+    display:block;padding-top:10px;
+}
+.main-center ul li div h5{
+    color:green;font-size:14px;margin-top:-60px;margin-right:50px;float:right;
+}
+.main-center ul li div .a_float{
+    color: rgba(102, 102, 102, 0.91);font-size:14px;margin-right:0px;margin-top:-30px;
+}
+.main-center ul li div .hold{
+    margin-top:10px;margin-left:-22px;background-color:#ffffff;
+}
+.main-center ul li div .hold li{
+    list-style-image:url("../img/list.gif");margin-right:30px;
+}
+.main-center ul li div .hold li a{
+    font-size:14px;color: rgba(80, 80, 80, 0.93);
+}
+.main-center ul li div .hold li a:hover{
+    color:green;background-color:#ffffff;
+}
+#first_show{
+    display:block;
+}
+.main-center ul li div .hold li a:hover~div{
+    display:block;background-color:white;
+}
+
+.main-center .pct{
+    float:right;margin-top:-50px;height:250px;
+}
+#wxpt{
+    float:right;margin-top:2px;
+}
+#sjtsg{
+    float:right;margin-top:-65px;
+}
+.main-bottom .img{
+    float:left;margin-top:10px;height:250px;
+}
+.main .main-bottom .slide{
+    width:460px;height:199px;margin-left:220px;border:2px solid #999999;
+}
+.main-bottom .zwdz{
+    float:right;width:280px;height:180px;margin-top:-200px;padding:2px;
+}
+.main .mainpage{
+    width:990px;height:50px;background-color: #f1f1f1;margin:10px auto;padding-top:25px;
+}
+.main .mainpage ul li{
+    display:inline;margin-left:40px;
+}
+.main .mainpage ul li a{
+    color:#000000;
+}
+.main .mainpage ul li a:hover{
+    color:green
+}
+.main .mainpage ul li span{
+    font-weight:900;margin-left:40px;
+}
+#north{
+    margin-left:-90px;
+}
+
+/*footer*/
+.footer{
+    width:100%;height:137px;background-image:url("../img/footer_bg.jpg");overflow:hidden;
+}
+.footer .footer_p,p{
+    margin-left:380px;
+}
+.footer .footer_p{
+    margin:50px 380px 10px;
+}
